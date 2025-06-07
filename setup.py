@@ -43,13 +43,13 @@ setup(
         "bfxapi.rest._interfaces",
     ],
     install_requires=[
-        "pyee~=11.1.0",
-        "websockets~=12.0",
-        "requests~=2.32.3",
+        "pyee>=11.1.0",
+        "websockets>=12.0",
+        "requests>=2.32.3",
     ],
     extras_require={
         "typing": [
-            "types-requests~=2.32.0.20241016",
+            "types-requests>=2.32.0.20241016",
         ]
     },
     python_requires=">=3.8",
